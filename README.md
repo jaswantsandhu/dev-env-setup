@@ -5,6 +5,23 @@ This repository provides modular setup scripts to install essential tools and li
 
 ---
 
+## 🍺 Install Homebrew (if not installed)
+
+Before running these scripts, make sure you have Homebrew installed.  
+To install Homebrew on macOS, run:
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+After installation, run:
+
+```bash
+brew update
+```
+
+---
+
 ## 📜 Available Scripts
 
 Each script installs a category of tools, so you can choose what suits your stack.
@@ -44,7 +61,7 @@ Each script installs a category of tools, so you can choose what suits your stac
 
 1. **Clone this repo:**
    ```bash
-   git clone https://github.com/jaswantsandhu/dev-env-setup.git
+   git clone https://github.com/your-username/dev-env-setup.git
    cd dev-env-setup
    ```
 
@@ -54,7 +71,7 @@ Each script installs a category of tools, so you can choose what suits your stac
    ./install_core_cli.sh
    ```
    
-> 📝 Some GUI tools and Docker may require approval in macOS settings.
+> Some GUI tools and Docker may require approval in macOS settings.
 
 ---
 
